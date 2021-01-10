@@ -1,0 +1,119 @@
+.Portfolio{
+    background-image: url('https://freight.cargo.site/t/original/i/1252f19e7a60c9f19594fb904bff233d951e929b2d1f61e20bb49da273565884/StokexAdobe-Marketing-2025_NuriaBoj_Section-04_1920x720.gif');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 110vh;
+    width: 100%;
+    align-items: center;
+    top: 0px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+    z-index: 1;
+    padding-top: 80px;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectsLink{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.projectCard{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(46, 4, 4, .9);
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+.projectImage{
+    height: 100px;
+    width: 100%;
+    position: static;
+    display: contents;
+}
+
+.projectCard:hover{
+    box-shadow: 5px 5px 6px 8px rgb(0, 0, 0, .9);
+    opacity: 100;
+}
+
+.technologies{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.technologies ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bar{
+    display: block;
+    position: absolute;
+    height: 32px;
+    background-color: slateblue;
+    width: 400px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    z-index: 10;
+}
+
+.cardDesc{
+    padding-top: 15px;
+}
+
+.filter{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.filter div{
+    margin: 0 15px;
+    color: rgb(70, 70, 70);
+}
+
+
+.filter li:hover{
+    cursor: pointer;
+    color: red;
+    transition: all .5s;
+}
+
+.shrink{
+    animation: shrink 1.5s ease forwards;
+}
+
+@keyframes shrink{
+    0%{
+        height: 300px;
+        width: 400px;
+        transform: scale(1);
+    }
+    50%{
+        height: 120px;
+        width: 120px;
+        transform: scale(5);
+    }
+    100%{
+        box-shadow: none;
+        height: 0%;
+        width: 0%;
+        transform: scale(0);
+        position: absolute;
+    }
+}

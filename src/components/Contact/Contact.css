@@ -1,0 +1,17 @@
+.Contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 0px;
+    width: 100%;
+    color: white;
+    font-size:1.5em ;
+    z-index: 1;
+    margin: auto;
+    font-size: larger;
+    font-family:Arial;
+    padding-top: 100px;
+    background-image: url('https://64.media.tumblr.com/0870408ef69639327475f93f665ac490/92c7bc6db974c4d5-ab/s1280x1920/867979c9a1d803b0d13ff8cdc7393fcf33c84511.gifv');
+}

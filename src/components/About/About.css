@@ -1,0 +1,16 @@
+.About{
+    background-image: url('https://static01.nyt.com/images/2020/04/15/business/15Techfix-illo/15Techfix-illo-articleLarge.gif?quality=75&auto=webp&disable=upscale');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    top: 0px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1em;
+    z-index: 1;
+    padding-top: 35px;
+    margin-top: 10px;
+}
