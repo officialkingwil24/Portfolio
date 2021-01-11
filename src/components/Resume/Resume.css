@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
     align-items: center;
     top: 0px;
     z-index: 1;
     padding-top: 100px;
-    background-color: skyblue;
+    background-image: url('https://www.wallpapertip.com/wmimgs/83-838155_technology-background.jpg');
+    background-size: cover;
 }

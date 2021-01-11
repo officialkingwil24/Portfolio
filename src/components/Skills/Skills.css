@@ -1,15 +1,16 @@
 .Skills{
-    background-image: url('https://media.tenor.com/images/2b140792248cbf1df91c9dd58a5a47aa/tenor.gif');
+    background-image: url('https://wallpaperaccess.com/full/283134.png');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     top: 0px;
     color: white;
-    text-shadow: 2px 2px 2px red;
-    -webkit-text-stroke: 0.7px black;
+    text-shadow: 2px 2px 2px slateblue;
+    -webkit-text-stroke: 0.3px black;
     font-size: 1em;
     z-index: 1;
     padding-top:120px;

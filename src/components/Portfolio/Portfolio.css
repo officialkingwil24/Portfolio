@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     height: 110vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     top: 0px;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px slateblue;
+    -webkit-text-stroke: 1px black;
     font-size: 1.5em;
     z-index: 1;
     padding-top: 80px;
@@ -22,7 +23,8 @@
 
 .projectsLink{
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px slateblue;
+    -webkit-text-stroke: 1px black;
 }
 
 .projectCard{
@@ -69,6 +71,7 @@
     width: 400px;
     color: white;
     text-shadow: 2px 2px 2px black;
+    -webkit-text-stroke: 1px black;
     z-index: 10;
 }
 
